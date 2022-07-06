@@ -81,5 +81,69 @@ h2 {
     text-align: center;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    b
+
+}
+
+.fiexible-container-list {
+    display: flex;
+    /* margin-bottom: 100px; */
+    width: 50%;
+    font-size: 100px;
+    padding: 5px 10px;
+}
+
+
+
+.fiex-container {
+    display: flex;
+    background-color: rgb(234, 231, 231);
+    justify-content: center;
+    margin: 40px 50px;
+    padding: 40px 40px;
+    gap: 330px 870px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.fiex-container>div {
+    margin: 3px;
+    padding: 2px;
+    width: 100px;
+
+
+}
+
+.fiex-container h2 {
+    color: rgb(80, 11, 11);
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.fiex-container p {
+    font-size: 40px;
+    margin: 0;
+}
+
+#foot {
+    background-color: rgb(12, 12, 18);
+    height: 500px;
+    width: 100%;
+}
+
+.Gray-color {
+    color: gray;
+    font-family: Sans-serif;
+}
+
+#foot p {
+    color: aliceblue;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#foot h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 300px;
 }
